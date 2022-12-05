@@ -12,13 +12,14 @@
 Diseñar e generar los elmentos para la simulación y construcción de un manipulador móvil, compuesto por una base móvil omnidireccional y un robot serial Dofbot.
 
 # Metas
-- Generar una simulación en primitivas del robot RLRLR con el fin de establecer los parámetros de diseño necesarios para su diseño a detalle y su implementación en un banco de pruebas.
-- Diseñar un “eslabón adaptable” modular el cual es una combinación de un junta rotacional y una junta prismática, donde el actuador de la junta prismática sea un motor dynamixel Ax18 y el actuador de la junta prismática sea una banda dentada.
-- Implementar una simulación del robot realizando el seguimiento de una trayectoria, en la cual todas las juntas del robot tengan un comportamiento establecido.
-- Crear una interfase control del robot.
-- Construir el banco de pruebas del robot diseñado.
+- Determinar los parámetros relacionados con las dimensines de los elementos que componene al robot.
+- Establecer una distribución de los elementos que conforman la base móvil de tal manera que sus dimensiones sean considetnes las dimensiones del robot ROSMASTER X3 PLUS ROS Robot.
+- Realizar el diseño a detalle del robot en CAD y generar los elementos de la simulación virtual del robot.
+- Diseño y construcción de los circuitos de la PCB necesarios para la implimientación del robot. 
+
 
 # Productos
-- Un banco de pruebas virtual del robot RLRLR, en el cual se puedan simular el robot realizando tareas programadas.
-- Un banco de pruebas físico del robot RLRLR en el cual se puedan implementarlos resultados de las simulaciones hechas en el banco de pruebas virtual.
-- Un repositorio con los archivos y la información generada durante el proyecto, con el fin de que este pueda se reproducido.
+- Diseño a detalle del la plataforma móvil.
+- Desarrollo de los elementos de una simulación Virtual del robot en formato URDF.
+- Diseño y realización de los circuitos de control y de potencia del robot en formato PCB.
+- Desarrollo de los elementos para la construcción del manipulador móvil de manera física.
