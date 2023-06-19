@@ -5,19 +5,22 @@
 
 # Participantes
 - Erik Peña Medina (responsable)
-- Garcia Oñate Miguel Angel
-- Mendoza Reyes Carlos Mauricio
-- Lazcano Romero Eduardo Alejandro
-- Torres Guerrero Adair
+- Martin Chilpa
+- David Altamirano
 
-# Objetivo
-Diseñar e generar los elmentos para la simulación y construcción de un manipulador móvil, compuesto por una base móvil omnidireccional y un robot serial Dofbot.
+# Introducción 
+
+ 
+
+# Migración de proyecto
+
+Al tener acceso al repositorio, se pudo apreciar que los diferentes componentes se encontraban en una extensión diferente a la deseada. El proyecto se planteó retomar desde el programa de Fusion 360. El proceso que se llevó acabo fue abrir los nuevos componentes desde Fusion 360 y salvar con la extensión reconocida por el software (.dwg)
+
+![Texto alternativo](ruta_de_la_imagen)
+![Descripción de la imagen](/images/posicion_llantas.jpg)
+
 
 # Metas
-- Determinar los parámetros relacionados con las dimensines de los elementos que componene al robot.
-- Establecer una distribución de los elementos que conforman la base móvil de tal manera que sus dimensiones sean considetnes las dimensiones del robot ROSMASTER X3 PLUS ROS Robot.
-- Realizar el diseño a detalle del robot en CAD y generar los elementos de la simulación virtual del robot.
-- Diseño y construcción de los circuitos de la PCB necesarios para la implimientación del robot. 
 
 ---
 # Productos
@@ -27,20 +30,9 @@ Diseñar e generar los elmentos para la simulación y construcción de un manipu
 - Desarrollo de los elementos para la construcción del manipulador móvil de manera física.
 
 ---
-## Primer día, mié 30/11/22
-- Instalacion SW 2020
-- Inicio de planeación → probablemente iniciaremos con esquemáticos del robot
-ROSMASTER X3 PLUS para comparar sus dimensiones y distribución con el actual
-(Requerimos SW)
-- Descargamos dofbot-cad-min.zip, el cad del robot. En este repo GITHUB
----
-## Segundo dia, lun 05/12/22
-- afecta la forma de la base? por que mantener el track?
-- qué lleva el piso inferior? el comercial es mas chico, por qué lo queremos mas
-grande?
-- donde posicionar los soportes del motor?
 
-![Descripción de la imagen](/images/posicion_llantas.jpg)
+
+
 
 ---
 ## Lun 12/12/2022 fue puente
@@ -118,4 +110,7 @@ Una vez planificado el espacio donde se implementarán las columnas, se procedi�
 ### Ensamble del brazo robotico:
 Para esta parte, se buscó establecer la pieza cercano al centro de masa, de tal modo que no afectara la localización de la Nvidia y pudiera cubrir los requerimientos 
 planteados por el profesor.
+
+
+
 
